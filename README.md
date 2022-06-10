@@ -5,6 +5,10 @@ This project is currently in maintainance mode.  No further enhancements to this
 
 I have decided to step away from this project as I've made the personal decision to rid myself of any Tuya Wifi based devices (I'm down to only 4 at this point, and they are all easy to replace or at least flash with Tasmota).  This decision was made due to the fact that Tuya continues to make it more and more difficult to control their devices locally.  While I don't blame them for this, these devices were only interesting to me because of this local control and thus I can no longer meet my personal goals with Tuya devices (at least the Wifi ones) so I will no longer be purchasing/using them going forward.
 
+# About Command18
+Some Devices Needed Pull Requests via Command 18 for publishing Information. For This Feature Actualy you need a Patch for tuyapi:
+https://github.com/codetheweb/tuyapi/pull/582/files
+
 # About
 This project is a bridge that allows locally controlling IOT devices manufactured by Tuya Inc., and sold under many different brands, via simple MQTT topics.  It effectively translate the Tuya protocol to easy to use topics.
 
