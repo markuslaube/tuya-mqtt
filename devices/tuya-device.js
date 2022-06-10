@@ -23,7 +23,17 @@ class TuyaDevice {
             if (this.config.version) {
                 this.options.version = this.config.version
             } else {
-                this.options.version = '3.1'
+                this.options.version = '3.3'
+            }
+            if (this.config.issueRefreshOnConnect) {
+                this.options.issueRefreshOnConnect = this.config.issueRefreshOnConnect
+            } else {
+                this.options.issueRefreshOnConnect = false
+            }
+            if (this.config.issueRefreshOnPing) {
+                this.options.issueRefreshOnPing = this.config.issueRefreshOnPing
+            } else {
+                this.options.issueRefreshOnPing = false
             }
         }
 
