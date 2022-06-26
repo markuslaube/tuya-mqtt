@@ -19,7 +19,7 @@
     "json5": "^2.1.3",
     "mqtt": "^4.2.6",
     "supports-color": "^8.1.0",
-    "tuyapi": "^7.2.1",
+    "tuyapi": "^7.3.0",
     "mathjs": "8.1.1"
   },
   "repository": {
